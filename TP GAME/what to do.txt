@@ -1,0 +1,4 @@
+1. agregar la opcion de identificar los archivos estan llenos o no
+2. sistema de combate completo
+3. enlazar los txt de personajes al sistema de combate
+4. funcion para elegir el champion
