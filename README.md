@@ -1,2 +1,2 @@
 # computacion2022
-aca subo cosas horribles 
+Aca se suben los practicos de la asignatura Computacion
