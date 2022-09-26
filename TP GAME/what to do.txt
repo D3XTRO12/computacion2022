@@ -1,4 +1,41 @@
 1. agregar la opcion de identificar los archivos estan llenos o no
 2. sistema de combate completo
+
+import os
+empty = os.stat('c:/myarchivo.txt').st_size == 0
+if empty == 0:
+    print('espacio de personaje vacio')
+else:
+    hagamos algo aca
+
 3. enlazar los txt de personajes al sistema de combate
 4. funcion para elegir el champion
+5. mochila de items
+
+
+while True:
+        
+        if choice_file == 1:
+        
+            chosen_file = 'character_1.txt'
+            with open(chosen_file, "w") as archive:
+                archive.writelines(character_list)
+            break
+
+        elif choice_file == 2:
+        
+            chosen_file = 'character_2.txt'
+            with open(chosen_file, "w") as archive:
+                archive.writelines(character_list)
+            break
+        
+        elif choice_file == 3:
+        
+            chosen_file = 'character_3.txt'
+            with open(chosen_file, "w") as archive:
+                archive.writelines(character_list)
+            break
+        
+        else:
+        
+            print("Wrong option. Choose a valid option")
